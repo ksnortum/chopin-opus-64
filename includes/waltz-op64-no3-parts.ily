@@ -102,12 +102,24 @@ rightHandUpper = \relative {
   % d natural, source B
   a8 bf c d a bf) |
   % trill to d natural, source B
-  c2.~^\trillNatural \startTrillSpan |
-  \afterGrace 15/16 c2. { b16[ \stopTrillSpan c] } |
+  \tag layout {
+    c2.~^\trillNatural \startTrillSpan |
+    \afterGrace 15/16 c2. { b16[ \stopTrillSpan c] } |
+  }
+  \tag midi {
+    \repeat unfold 12 { d32 c } |
+    \repeat unfold 11 { d32 c } b c | 
+  }
   d8( ef cf df d ef |
   cf8 df d ef b cs) |
-  d2.~ \startTrillSpan |
-  \afterGrace 15/16 d2. { cs16[ \stopTrillSpan d] } |
+  \tag layout {
+    d2.~ \startTrillSpan |
+    \afterGrace 15/16 d2. { cs16[ \stopTrillSpan d] } |
+  }
+  \tag midi {
+    \repeat unfold 12 { ef32 d } |
+    \repeat unfold 11 { ef32 d } cs d | 
+  }
   
   \barNumberCheck 65
   f2( ef4 |
@@ -901,7 +913,74 @@ tempi = {
   \barNumberCheck 25
   s2. * 8 |
   
+  \barNumberCheck 33
+  s2. * 8 |
   
+  \barNumberCheck 41
+  s2. * 8 |
+  
+  \barNumberCheck 49
+  s2. * 8 |
+  
+  \barNumberCheck 57
+  s2. * 8 |
+  
+  \barNumberCheck 65
+  s2. * 8 |
+  
+  \barNumberCheck 73
+  s2. * 8 |
+  
+  \barNumberCheck 81
+  s2. * 8 |
+  
+  \barNumberCheck 89
+  s2. * 8 |
+  
+  \barNumberCheck 97
+  s2. * 8 |
+  
+  \barNumberCheck 105
+  s2. * 8 |
+  
+  \barNumberCheck 113
+  s2. * 8 |
+  
+  \barNumberCheck 121
+  s2. * 8 |
+  
+  \barNumberCheck 129
+  s2. * 8 |
+  
+  \barNumberCheck 137
+  s2. * 8 |
+  
+  \barNumberCheck 145
+  s2. * 4 |
+  \tempo 2. = 54
+  s2. * 2 |
+  \tempo 2. = 56
+  s2. * 2 |
+  
+  \barNumberCheck 153
+  \tempo 2. = 58
+  s2. * 2 |
+  \tempo 2. = 60
+  s2. * 2 |
+  \tempo 2. = 63
+  s2. * 2 |
+  \tempo 2. = 66
+  s2. * 2 |
+  
+  \barNumberCheck 161
+  \tempo 2. = 69
+  s2. * 2 |
+  \tempo 2. = 72
+  s2. * 2 |
+  \tempo 2. = 76
+  s2. * 4 |
+  
+  \barNumberCheck 169
 }
 
 forceBreaks = {
