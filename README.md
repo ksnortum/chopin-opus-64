@@ -1,5 +1,5 @@
 # chopin-opus-64
-These are the engraving source files used to create Chopin's Three Waltzes, opus 64.
+[LilyPond](https://lilypond.org/) engraving source files used to create Chopin's Three Waltzes, opus 64.
 
 ## Creating the PDF and MIDI files
 (I highly recommend the [Frescobaldi](https://www.frescobaldi.org/) IDE for LilyPond.  It makes all of the following much easier.)
@@ -12,7 +12,7 @@ To create a smaller PDF, try:
 
         lilypond -dno-point-and-click waltzes-op64-book.ly
 
-You may also download the latest release [here](https://github.com/ksnortum/chopin-opus-64/releases/latest) to get the compiled PDF and MIDI files.
+You may also [download the latest release](https://github.com/ksnortum/chopin-opus-64/releases/latest) to get the compiled PDF and MIDI files.
 
 ### Programming errors
 When you compile (run `lilypond` on) the book or the third waltz source files, you may see this:
