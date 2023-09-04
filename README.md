@@ -25,6 +25,9 @@ These warnings can be ignored.
 The pieces are set up so that they can be printed on two sides of the paper, leaving an extra margin amount on the inside pages for binding.  If you don't want this, open the file `header-paper.ily`,
 find the `\paper` block (in the middle) and set `two-sided = ##f`.
 
+## Thanks
+Thanks to [phmcarty](https://github.com/phmccarty) for the proofreading.
+
 ## License
 This work is licensed under the [Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/) from Creative Commons.  Follow the link for details.  Basically, you can use this work however you want *if* you keep the same license and you attribute the work to me, Knute Snortum (knute (at) snortum (dot) net).
 
