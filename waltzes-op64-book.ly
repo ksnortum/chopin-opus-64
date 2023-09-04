@@ -50,7 +50,7 @@
 \pageBreak
 
 \tocItem \markup \concat { 
-  "Waltz no. 1 in A" \raise #0.75 \teeny \flat " major" 
+  "Waltz no. 3 in A" \raise #0.75 \teeny \flat " major"
 }
 \waltzThreeNotes
 
