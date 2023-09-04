@@ -200,7 +200,7 @@ rightHandUpper = \relative {
   bf8) g'( ef' d f, ef |
   c'8 bf d, c af' g |
   bf,8 a af af) g'( f |
-  g,8 bf g df' f ef |
+  af,8 bf g df' f ef |
   c8 g af f ef4~ |
   ef8 af c df f4~ |
   f8 d f ef c'4~ |
