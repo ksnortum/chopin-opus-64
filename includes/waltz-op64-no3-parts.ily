@@ -474,7 +474,7 @@ leftHand = \relative {
   a,4(\> c8 bf f g |
   bf8 af\! e f af g) |
   \key af \major
-  af,4 <ef' af c> q |
+  \grace { s8 } af,4 <ef' af c> q |
   ef,4 <ef' af c> q |
   af,4 <ef' af c> q |
   ef,4 <ef' af c> q |
